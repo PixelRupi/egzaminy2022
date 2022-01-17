@@ -1,0 +1,7 @@
+SELECT * FROM pogoda where pogoda.miasta_id=1 order by pogoda.data_prognozy asc
+
+SELECT pogoda.id, pogoda.data_prognozy from pogoda where pogoda.opady > 30
+
+SELECT pogoda.data_prognozy, pogoda.temperatura_noc, miasta.nazwa from pogoda join miasta on pogoda.miasta_id = miasta.id where pogoda.temperatura_noc < 6
+
+ALTER TABLE `miasta` ADD `wojewodztwo` TEXT NOT NULL AFTER `nazwa`;

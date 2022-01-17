@@ -1,0 +1,73 @@
+#baner_lewy{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    width: 55%;
+    font-size: 120%;
+    float: left;
+}
+
+#baner_srodkowy{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+
+#baner_prawy{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    width: 20%;
+    text-align: right;
+    float: left;
+}
+
+#glowny{
+    background-color: snow;
+    padding: 70px;
+    clear: both;
+}
+
+#stopka_lewa{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    width: 55%;
+    font-size: 120%;
+    float: left;
+}
+
+#stopka_srodkowa{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+
+#stopka_prawa{
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    width: 20%;
+    text-align: right;
+    float: left;
+}
+
+*{
+    font-family: Arial;
+}
+
+a{
+    border: 2px dotted saddlebrown;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+
+ol{
+    list-style: lower-alpha;
+}
